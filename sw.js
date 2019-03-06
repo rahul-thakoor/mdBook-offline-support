@@ -16,7 +16,7 @@ if (workbox) {
   },
   {
     "url": "chapter_1.html",
-    "revision": "492ceb924841e6eb0577422d5abdbeb4"
+    "revision": "61ed338e313afcd964e9e3d4ee2902fd"
   },
   {
     "url": "clipboard.min.js",
@@ -83,8 +83,12 @@ if (workbox) {
     "revision": "bcf89c04116f8eff4bcdf1da206e69b4"
   },
   {
+    "url": "how_to.html",
+    "revision": "9048692e6e8cf1d106cd2b6a7ffef567"
+  },
+  {
     "url": "index.html",
-    "revision": "e14854b4b6471cf087547ece46b44b47"
+    "revision": "eee5800c01d0d88b03bb44c33baa75b6"
   },
   {
     "url": "mark.min.js",
@@ -92,7 +96,7 @@ if (workbox) {
   },
   {
     "url": "print.html",
-    "revision": "4f5dfd54a152f32981da270e42def9c4"
+    "revision": "e9ac62cb6c08061b139d345c88e6da2a"
   },
   {
     "url": "register-sw.js",
@@ -104,11 +108,11 @@ if (workbox) {
   },
   {
     "url": "searchindex.js",
-    "revision": "8601388def89bda346be5caded8ed4c8"
+    "revision": "82020abccc4f0f25ea01bd4366ef76f5"
   },
   {
     "url": "searchindex.json",
-    "revision": "3c985eef3b683f74611b22794126fccc"
+    "revision": "be7f7fb9b3f0f936cf67541ff1953fb3"
   },
   {
     "url": "tomorrow-night.css",
