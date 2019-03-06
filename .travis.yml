@@ -1,0 +1,27 @@
+branches:
+  only:
+  - master
+before_install:
+  - nvm install 10.0
+  - node --version
+language: rust
+sudo: false
+cache:
+  - cargo
+  - npm
+before_script:
+  - (test -x $HOME/.cargo/bin/cargo-install-update || cargo install cargo-update)
+  - (test -x $HOME/.cargo/bin/mdbook || cargo install mdbook)
+  - cargo install-update -a
+  - npm install --global workbox-cli 
+script:
+  - mdbook build && workbox injectManifest workbox-config.js
+      
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  local-dir: book
+  on:
+    branch: master

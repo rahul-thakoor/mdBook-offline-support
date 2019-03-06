@@ -1,0 +1,8 @@
+[book]
+authors = ["Rahul Thakoor"]
+multilingual = false
+src = "src"
+title = "mdBook Offline Support"
+
+[output.html]
+additional-js=["register-sw.js"]
